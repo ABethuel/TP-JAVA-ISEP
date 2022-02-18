@@ -6,7 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
         //discriminant();
-        parite();
+        //parite();
+        max();
     }
 
     public static void discriminant() {
@@ -46,6 +47,23 @@ public class Main {
         }else {
             System.out.println("Le nombre " + integer + " est impair");
         }
+    }
+
+    public static void max() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Veuillez saisir un entier a : ");
+        int a = scanner.nextInt();
+
+        System.out.print("Veuillez saisir un entier b : ");
+        int b = scanner.nextInt();
+
+        if (a == b) {
+            System.out.println("les deux entiers a et b sont égaux");
+        }else{
+            System.out.println("Le maximum des deux entiers a et b est : " + Math.max(a, b));
+            System.out.println("Le minimum des deux entiers a et b est : " + Math.min(a, b));
+        }
+
     }
 }
 
