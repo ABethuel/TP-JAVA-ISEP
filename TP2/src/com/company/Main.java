@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        discriminant();
+        //discriminant();
+        parite();
     }
 
     public static void discriminant() {
@@ -33,6 +34,10 @@ public class Main {
             double r2 = (-b - Math.sqrt(delta)) / (2*a);
             System.out.println("Ce polynome possède deux racines avec : r1 = " + r1 + " et r2 = " + r2);
         }
+    }
+
+    public static void parite() {
+
     }
 }
 
