@@ -7,7 +7,9 @@ public class Main {
     public static void main(String[] args) {
         //discriminant();
         //parite();
-        max();
+        //max();
+        //egaliteStr();
+        factorielle();
     }
 
     public static void discriminant() {
@@ -63,6 +65,33 @@ public class Main {
             System.out.println("Le maximum des deux entiers a et b est : " + Math.max(a, b));
             System.out.println("Le minimum des deux entiers a et b est : " + Math.min(a, b));
         }
+    }
+
+    public static void egaliteStr(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Veuillez saisir une chaine de caractère : ");
+        String a = scanner.nextLine();
+
+        System.out.print("Veuillez saisir une chaine de caractère : ");
+        String b = scanner.nextLine();
+
+        if (a.equals(b)){
+            System.out.println("les chaines de caractères sont identiques");
+        }else{
+            System.out.println("Les chaines de caractères ne sont pas identiques");
+        }
+    }
+
+    public static void factorielle() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Saisir un entier positif ou nul");
+        int n = scanner.nextInt();
+
+        int factorielle = 1;
+        for (int i = 1; i <= n; i++) {
+            factorielle *= i;
+        }
+        System.out.println(n + "! = " + factorielle);
 
     }
 }
