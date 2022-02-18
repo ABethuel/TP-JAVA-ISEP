@@ -9,7 +9,9 @@ public class Main {
         //parite();
         //max();
         //egaliteStr();
-        factorielle();
+        //factorielle();
+        //countdown();
+        carres();
     }
 
     public static void discriminant() {
@@ -92,7 +94,28 @@ public class Main {
             factorielle *= i;
         }
         System.out.println(n + "! = " + factorielle);
+    }
 
+    public static void countdown(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Saisir un entier positif");
+        int n = scanner.nextInt();
+        if (n == 0){
+            System.out.println("Veuillez saisir un entier strictement positif");
+        }else{
+            while (n >= 0 ){
+                System.out.println(n);
+                n -= 1;
+            }
+            System.out.println("BOUM!");
+        }
+    }
+
+    private static void carres() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Saisir un entier:");
+        int n = scanner.nextInt();
+        System.out.println(n + "\t" + n*n);
     }
 }
 
