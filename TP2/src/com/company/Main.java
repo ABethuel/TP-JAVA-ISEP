@@ -37,7 +37,15 @@ public class Main {
     }
 
     public static void parite() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Veuillez saisir un entier : ");
+        int integer = scanner.nextInt();
 
+        if (integer % 2 ==0 ){
+            System.out.println("Le nombre " + integer + " est pair");
+        }else {
+            System.out.println("Le nombre " + integer + " est impair");
+        }
     }
 }
 
