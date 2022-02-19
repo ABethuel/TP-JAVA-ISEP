@@ -1,22 +1,73 @@
 package com.company;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        //discriminant();
-        //parite();
-        //max();
-        //egaliteStr();
-        //factorielle();
-        //countdown();
-        //carres();
-        //tableMultiplication();
-        //division();
-        //regle();
-        nombrePremier();
+
+        choice();
+        Scanner scanner = new Scanner(System.in);
+        int choice = scanner.nextInt();
+        while (choice < 1 || choice > 13){
+            System.out.println("Veuillez saisir un nombre entre 1 et 12 pour choisir votre exercice");
+            choice();
+            choice = scanner.nextInt();
+        }
+
+        switch (choice){
+            case (1):
+                discriminant();
+                break;
+            case (2):
+                parite();
+                break;
+            case (3):
+                max();
+                break;
+            case (4):
+                egaliteStr();
+                break;
+            case (5):
+                factorielle();
+                break;
+            case (6):
+                countdown();
+                break;
+            case (7):
+                carres();
+                break;
+            case (8):
+                tableMultiplication();
+                break;
+            case (9):
+                division();
+                break;
+            case (10):
+                regle();
+                break;
+            case (11):
+                nombrePremier();
+                break;
+            case (12):
+                initialisationTableau();
+                break;
+        }
+    }
+
+    public static void choice(){
+        String[] arrayExercices = {"1. Discriminant", "2. Parité d’un nombre", "3. Calcul d’extremum",
+                "4. Égalité entre chaînes de caractères", "5. Factorielle", "6. Compte à rebours", "7. Valeurs de carrés",
+                "8. Table de multiplication", "9. Division d’entiers", "10. Règle graduée", "11. Nombres premiers",
+                "12. Manipulations sur un tableau" };
+
+        System.out.println("\n\nQuel Exercice Saisissez : ");
+        for (int i = 0; i < arrayExercices.length; i++){
+            System.out.println(arrayExercices[i]);
+        }
     }
 
     public static void discriminant() {
@@ -199,5 +250,69 @@ public class Main {
             System.out.println("le nombre " + a + " n'est pas premier");
         }
     }
+
+    public static void initialisationTableau() {
+        int[] tableau = new int[8];
+
+        Scanner scanner = new Scanner(System.in);
+        for (int i = 0; i < tableau.length; i++) {
+            System.out.println("Saisir un entier");
+            int entier = scanner.nextInt();
+            tableau[i] = entier;
+        }
+        int max = tableau[0];
+        int min = tableau[0];
+        // On détermine le max et le min
+        for (int i = 0; i < tableau.length; i++) {
+            int a = tableau[i];
+            if (a > max) {
+                max = a;
+            } else if (a < min) {
+                min = a;
+            }
+        }
+        System.out.println("Le maximum du tableau est " + max + "\n" +
+                "Le minimum du tableau est " + min);
+
+        // Calcul de la somme
+        int somme = 0;
+        for (int i = 0; i < tableau.length; i++) {
+            somme += tableau[i];
+        }
+        System.out.println("La somme des éléments du tableau donne " + somme);
+
+        // Elements pairs du tableau
+        int[] pairValeurs = new int[0];
+        int[] pairIndex = new int[0];
+        System.out.print("Les valeurs paires du tableau sont : ");
+        for (int i = 0; i < tableau.length; i++) {
+            if (tableau[i] % 2 == 0){
+                pairValeurs = Arrays.copyOf(pairValeurs, pairValeurs.length + 1);
+                pairValeurs[pairValeurs.length - 1 ] = tableau[i];
+                System.out.print(pairValeurs[pairValeurs.length - 1] + "\t");
+            }
+            if (i % 2 == 0) {
+                pairIndex = Arrays.copyOf(pairIndex, pairIndex.length + 1);
+                pairIndex[pairIndex.length - 1 ] = tableau[i];
+            }
+        }
+        System.out.print("\nLes éléments du tableau d'indice pair sont : ");
+        for (int i = 0; i < pairIndex.length; i++){
+            System.out.print(pairIndex[i] + "\t");
+        }
+
+        inverseTableau(tableau);
+    }
+
+    public static void inverseTableau(int[] tableau){
+        int[] tableauInverse = new int[0];
+        System.out.print("Le tableau inverse renvoie les valeurs suivantes : ");
+        for (int i = tableau.length-1; i > 0 ; i--){
+            tableauInverse = Arrays.copyOf(tableauInverse, tableauInverse.length + 1 );
+            tableauInverse[tableauInverse.length - 1] = tableau[i];
+        }
+        System.out.println("\n" + Arrays.toString(tableauInverse));
+    }
 }
+
 
