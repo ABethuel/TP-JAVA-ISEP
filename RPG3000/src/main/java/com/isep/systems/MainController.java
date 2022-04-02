@@ -3,7 +3,7 @@ package com.isep.systems;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class StartController {
+public class MainController {
     @FXML
     private Label welcomeText;
 

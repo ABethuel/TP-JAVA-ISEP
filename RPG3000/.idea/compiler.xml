@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="RPG3000" target="18" />
+      <module name="RPG3000" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

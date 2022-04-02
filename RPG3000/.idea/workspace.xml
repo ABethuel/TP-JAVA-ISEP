@@ -4,129 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10268491-d233-484b-8b44-405be4da2c3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dlsc_formsfx_formsfx_core_11_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_11_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_12_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_12_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPG3000.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/StartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/isep/systems/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/src/com/isep/rpg/BasicEnemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/src/com/isep/rpg/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/src/com/isep/rpg/Consumable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/src/com/isep/rpg/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/src/com/isep/rpg/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/src/com/isep/rpg/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/src/com/isep/rpg/Healer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/src/com/isep/rpg/Hero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/src/com/isep/rpg/Hunter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/src/com/isep/rpg/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/src/com/isep/rpg/Potion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/src/com/isep/rpg/SpellCaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/src/com/isep/rpg/Warrior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP4/src/com/isep/utils/InputParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/libraries/Maven__org_openjfx_javafx_base_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/libraries/Maven__org_openjfx_javafx_base_win_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/libraries/Maven__org_openjfx_javafx_controls_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/libraries/Maven__org_openjfx_javafx_controls_win_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/libraries/Maven__org_openjfx_javafx_fxml_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/libraries/Maven__org_openjfx_javafx_graphics_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_18_ea_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/TP5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/src/main/java/com/example/tp5/CustomButtonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/src/main/java/com/example/tp5/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/src/main/java/com/example/tp5/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/src/main/resources/com/example/tp5/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/target/classes/com/example/tp5/CustomButtonFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/target/classes/com/example/tp5/HelloApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/target/classes/com/example/tp5/HelloController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/target/classes/com/example/tp5/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TP5/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/.idea/description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/.idea/project-template.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/TP-4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/TP-4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/out/production/TP-4/com/isep/rpg/Consumable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/out/production/TP-4/com/isep/rpg/Consumable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/out/production/TP-4/com/isep/rpg/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/out/production/TP-4/com/isep/rpg/Food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/out/production/TP-4/com/isep/rpg/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/out/production/TP-4/com/isep/rpg/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/out/production/TP-4/com/isep/rpg/Hunter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/out/production/TP-4/com/isep/rpg/Hunter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/out/production/TP-4/com/isep/rpg/Potion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/out/production/TP-4/com/isep/rpg/Potion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/out/production/TP-4/com/isep/start/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/out/production/TP-4/com/isep/start/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/out/production/TP-4/com/isep/utils/InputParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/out/production/TP-4/com/isep/utils/InputParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/out/test/TP-4/com/isep/rpg/HeroTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/out/test/TP-4/com/isep/rpg/HeroTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/rpg/BasicEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/BasicEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/rpg/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/rpg/Consumable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Consumable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/rpg/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/rpg/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/rpg/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/rpg/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Healer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/rpg/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/rpg/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hunter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/rpg/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/rpg/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Potion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/rpg/SpellCaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/SpellCaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/rpg/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/start/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/src/com/isep/start/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/src/com/isep/utils/InputParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP-4/test/com/isep/rpg/HeroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/test/com/isep/rpg/HeroTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP_Noté1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../TP5/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP_Noté1/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP_Noté1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP_Noté1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP_Noté1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP_Noté1/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP_Noté1/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP_Noté1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP_Noté1/TP_Noté1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TP_Noté1/src/com/company/Main.java" beforeDir="false" />
+    <list default="true" id="04237751-8fb2-4f8d-8ceb-65d1bc530f92" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dlsc_formsfx_formsfx_core_11_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_11_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_bootstrapfx_bootstrapfx_core_0_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_core_12_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_kordamp_ikonli_ikonli_javafx_12_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_18_ea_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_18_ea_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_18_ea_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_18_ea_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_18_ea_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_18_ea_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_18_ea_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_18_ea_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPG3000.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RPG3000.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/BasicEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/BasicEnemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Boss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Consumable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Consumable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hunter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Potion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/SpellCaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/SpellCaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/systems/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/systems/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/systems/StartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/isep/systems/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/isep/systems/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +64,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="27BnRv4FyIY6VM9LFildstZ0FVr" />
+  <component name="ProjectId" id="27GBmPGIQGOkzuaiBBXZ2QT68lR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -145,7 +73,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/isep/entities" />
   </component>
@@ -155,8 +82,8 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.isep.systems.Main" />
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.isep.systems.MainApplication" />
       <module name="RPG3000" />
       <extension name="coverage">
         <pattern>
@@ -170,19 +97,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="10268491-d233-484b-8b44-405be4da2c3c" name="Changes" comment="" />
-      <created>1648802348858</created>
+      <changelist id="04237751-8fb2-4f8d-8ceb-65d1bc530f92" name="Changes" comment="" />
+      <created>1648936708768</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648802348858</updated>
-      <workItem from="1648802350856" duration="1171000" />
+      <updated>1648936708768</updated>
+      <workItem from="1648936711859" duration="305000" />
     </task>
     <servers />
   </component>
