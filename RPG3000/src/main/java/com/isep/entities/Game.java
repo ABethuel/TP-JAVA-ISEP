@@ -29,6 +29,6 @@ public class Game {
     }
 
     public void playGame() {}
-    public void generateCombat() {}
 
+    public void generateCombat() {}
 }

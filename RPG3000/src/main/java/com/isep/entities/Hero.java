@@ -45,7 +45,27 @@ public abstract class Hero {
     }
 
     // Méthodes
-    public abstract int attack();
+    public int attack(){
+        return getWeaponDamage();
+    };
+
+    public void receiveAttack(Enemy enemy){
+        if (getArmor() <= 0){
+            int newLifePoints = getLifePoints();
+            newLifePoints -= enemy.attack();
+            setLifePoints(newLifePoints);
+        }else{
+            int newArmorPoints = getArmor();
+            newArmorPoints -= enemy.attack();
+            setArmor(newArmorPoints);
+        }
+    }
+
+    public boolean isHeroAlive(int lifePoints){
+        return this.lifePoints <= 0;
+    }
+
     public abstract int defend();
     public abstract void useConsumables(Consumable consumable);
+
 }

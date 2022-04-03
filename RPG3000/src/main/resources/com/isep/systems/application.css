@@ -1,0 +1,10 @@
+.anchor_start {
+    -fx-background-image:url('../../../assets/images/background.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: 900px 700px;
+}
+
+.vbox_choice {
+    -fx-background-color: white;
+}
