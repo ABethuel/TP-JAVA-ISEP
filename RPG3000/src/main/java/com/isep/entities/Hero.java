@@ -45,9 +45,7 @@ public abstract class Hero {
     }
 
     // Méthodes
-    public int attack(){
-        return getWeaponDamage();
-    };
+    public abstract int attack();
 
     public void receiveAttack(Enemy enemy){
         if (getArmor() <= 0){
@@ -66,6 +64,17 @@ public abstract class Hero {
     }
 
     public abstract int defend();
-    public abstract void useConsumables(Consumable consumable);
 
+    public boolean isListItemsEmpty(List<Consumable> listItems) {
+        return listItems.size() <= 0;
+    }
+
+    public void useConsumables(Consumable consumable, List<Consumable> listItems){
+        if (isListItemsEmpty(listItems)){
+            System.out.println("Pas d'items dans cette liste");
+        }else{
+            listItems.remove(consumable);
+            setLifePoints(getLifePoints() + 2);
+        }
+    }
 }
