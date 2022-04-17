@@ -26,27 +26,29 @@
                         <Font name="System Bold" size="13.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="inputNumberHeroes" alignment="CENTER" prefHeight="3.0" prefWidth="33.0" text="1" />
+                  <TextField fx:id="inputNumberHeroes" alignment="CENTER" onKeyTyped="#onSetNumber" prefHeight="3.0" prefWidth="33.0" text="1" />
                </children>
             </HBox>
+            <Label fx:id="numberHeroLabel" />
             <VBox alignment="CENTER" prefHeight="284.0" prefWidth="556.0">
                <children>
                   <ImageView fx:id="heroImage" fitHeight="261.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../assets/images/warrior.png" />
+                        <Image url="@../../../assets/images/crossed_swords.png" />
                      </image>
                   </ImageView>
                   <ChoiceBox fx:id="heroChoiceBox" prefWidth="150.0" />
+                  <Button fx:id="validateButton" mnemonicParsing="false" onAction="#onClickValidate" text="Valider le héros" />
                </children>
             </VBox>
             <VBox alignment="TOP_CENTER" prefHeight="91.0" prefWidth="556.0">
                <children>
-                  <Button fx:id="validateButton" mnemonicParsing="false" text="Valider le héros" />
+                  <Button fx:id="nextHeroBtn" disable="true" mnemonicParsing="false" onAction="#nextHeroAction" text="Héro suivant" />
                </children>
             </VBox>
             <HBox alignment="CENTER" prefHeight="76.0" prefWidth="563.0">
                <children>
-                  <Button fx:id="startButton" defaultButton="true" disable="true" mnemonicParsing="false" text="Lancer la partie" />
+                  <Button fx:id="startButton" defaultButton="true" disable="true" mnemonicParsing="false" text="Lancer la partie" onAction="#onClickStart" />
                </children>
             </HBox>
          </children>

@@ -5,17 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04237751-8fb2-4f8d-8ceb-65d1bc530f92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/images/crossed_swords.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/images/mage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPG3000.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RPG3000.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/BasicEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/BasicEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Healer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hunter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/SpellCaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/SpellCaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/systems/ChoiceTeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/ChoiceTeamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/spell_caster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/isep/systems/choice-team-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/isep/systems/choice-team-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/spell_caster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/BasicEnemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/BasicEnemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Boss.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Boss.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Healer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Healer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Hunter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Hunter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Mage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Mage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/SpellCaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/SpellCaster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Warrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Warrior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/ChoiceTeamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/ChoiceTeamController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/choice-team-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/choice-team-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,17 +77,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.isep.systems.MainApplication" />
       <module name="RPG3000" />
@@ -89,6 +86,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,6 +121,11 @@
       <workItem from="1648941519011" duration="12599000" />
       <workItem from="1649071330787" duration="1573000" />
       <workItem from="1649150448356" duration="3905000" />
+      <workItem from="1649543658759" duration="588000" />
+      <workItem from="1649583271394" duration="1369000" />
+      <workItem from="1649603313169" duration="1743000" />
+      <workItem from="1650143263792" duration="2339000" />
+      <workItem from="1650148016671" duration="5513000" />
     </task>
     <servers />
   </component>

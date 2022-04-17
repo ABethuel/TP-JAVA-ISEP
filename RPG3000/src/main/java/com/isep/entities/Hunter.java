@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Hunter extends Hero{
 
-    private final int arrows;
+    private int arrows;
 
     public Hunter(int arrows) {
         this.arrows = arrows;
@@ -28,4 +28,11 @@ public class Hunter extends Hero{
         return 1;
     }
 
+    public int getArrows() {
+        return arrows;
+    }
+
+    public void setArrows(int arrows) {
+        this.arrows = arrows;
+    }
 }
