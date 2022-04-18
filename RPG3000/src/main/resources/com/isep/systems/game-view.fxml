@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" styleClass="anchor_start" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.isep.systems.GameController">
+    <stylesheets>
+        <URL value="@application.css" />
+    </stylesheets>
+    <Label layoutX="243.0" layoutY="25.0" text="Battez vous pour le destin du monde" textFill="WHITE">
+        <font>
+          <Font name="System Bold" size="24.0" />
+        </font>
+    </Label>
+   <VBox layoutX="59.0" layoutY="111.0" prefHeight="575.0" prefWidth="796.0" styleClass="vbox_choice" />
+   <Label layoutX="250.0" layoutY="72.0" text="Votre défaite reviendrait à la victoire des forces du mal..." textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="15.0" />
+      </font>
+   </Label>
+</AnchorPane>

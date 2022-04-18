@@ -4,26 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04237751-8fb2-4f8d-8ceb-65d1bc530f92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/images/crossed_swords.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/images/mage.png" afterDir="false" />
+    <list default="true" id="04237751-8fb2-4f8d-8ceb-65d1bc530f92" name="Changes" comment="choice your team">
+      <change afterPath="$PROJECT_DIR$/assets/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/basic_enemy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bigboss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/boss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/crossed_swords.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hunter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/mage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/warrior.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/isep/systems/game-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hunter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/systems/ChoiceTeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/ChoiceTeamController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/images/spell_caster.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/isep/systems/choice-team-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/isep/systems/choice-team-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/assets/images/spell_caster.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/BasicEnemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/BasicEnemy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Boss.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Boss.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Healer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Healer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Hunter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Hunter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Mage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Mage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/SpellCaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/SpellCaster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Warrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Warrior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/ChoiceTeamController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/ChoiceTeamController$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/ChoiceTeamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/ChoiceTeamController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/choice-team-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/choice-team-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +63,7 @@
       <recent name="C:\Users\daniela\Documents\A1\Algo et prog\TP-JAVA-ISEP\RPG3000\src\main\java\com\isep\entities" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adrie\OneDrive - ISEP\Cours\A1\Algorithmique et programmation\TP-JAVA-ISEP\RPG3000\assets" />
       <recent name="C:\Users\adrie\OneDrive - ISEP\Cours\A1\Algorithmique et programmation\TP-JAVA-ISEP\RPG3000\src\main\resources\assets\" />
       <recent name="C:\Users\adrie\OneDrive - ISEP\Cours\A1\Algorithmique et programmation\TP-JAVA-ISEP\RPG3000\src\main\resources" />
       <recent name="C:\Users\adrie\OneDrive - ISEP\Cours\A1\Algorithmique et programmation\TP-JAVA-ISEP\RPG3000\src\main\resources\assets\images" />
@@ -90,15 +86,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

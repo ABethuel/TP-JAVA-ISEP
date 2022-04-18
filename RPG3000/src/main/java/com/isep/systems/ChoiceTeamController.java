@@ -7,6 +7,8 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
@@ -15,6 +17,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.InputMethodEvent;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -44,11 +47,12 @@ public class ChoiceTeamController {
 
     private int numberHeroes;
 
-    public String urlImage = "C:\\Users\\adrie\\OneDrive - ISEP\\Cours\\A1\\Algorithmique et programmation\\TP-JAVA-ISEP\\RPG3000\\src\\main\\resources\\assets\\images\\";
+    public String urlImage = "file:assets/";
 
     @FXML
     public void initialize(){
         loadChoiceBox();
+        numberHeroLabel.setText("Héro 1");
     }
 
     private void loadChoiceBox(){
@@ -83,7 +87,7 @@ public class ChoiceTeamController {
     @FXML
     public void nextHeroAction(ActionEvent actionEvent) {
 
-        if (heroes.size() >= numberHeroes){
+        if (heroes.size() > numberHeroes){
             validateButton.setDisable(true);
             nextHeroBtn.setDisable(true);
             startButton.setDisable(false);
@@ -93,6 +97,7 @@ public class ChoiceTeamController {
             inputNumberHeroes.setDisable(true);
             validateButton.setDisable(false);
             nextHeroBtn.setDisable(true);
+            numberHeroLabel.setText("Héro " + (heroes.size() + 1) );
         }
         System.out.println(heroes);
         System.out.println(heroes.size());
@@ -114,8 +119,11 @@ public class ChoiceTeamController {
     }
 
     @FXML
-    public void onClickStart(ActionEvent actionEvent) {
-       Game game = new Game(heroes, 1);
-       game.playGame();
+    public void onClickStart(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("game-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 900, 700);
+        MainApplication.stage.setUserData(heroes);
+        MainApplication.stage.setScene(scene);
+        MainApplication.stage.show();
     }
 }
