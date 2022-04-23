@@ -9,8 +9,6 @@ import javafx.scene.control.Label;
 import java.io.IOException;
 
 public class MainController {
-    @FXML
-    private Label welcomeText;
 
     @FXML
     public void onStartClick(ActionEvent actionEvent) throws IOException {

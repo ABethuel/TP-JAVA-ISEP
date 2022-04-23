@@ -1,5 +1,6 @@
 package com.isep.systems;
 
+import com.isep.entities.Game;
 import com.isep.entities.Hero;
 import javafx.fxml.FXML;
 
@@ -12,8 +13,8 @@ public class GameController {
 
     @FXML
     public void initialize(){
-        System.out.println(heroes);
-
+        System.out.println("Your heroes : " + heroes);
+        Game game = new Game(heroes, 1);
     }
 
 }

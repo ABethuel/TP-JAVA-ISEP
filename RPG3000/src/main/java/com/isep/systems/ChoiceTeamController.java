@@ -87,7 +87,7 @@ public class ChoiceTeamController {
     @FXML
     public void nextHeroAction(ActionEvent actionEvent) {
 
-        if (heroes.size() > numberHeroes){
+        if (heroes.size() > numberHeroes - 1){
             validateButton.setDisable(true);
             nextHeroBtn.setDisable(true);
             startButton.setDisable(false);
@@ -120,9 +120,9 @@ public class ChoiceTeamController {
 
     @FXML
     public void onClickStart(ActionEvent actionEvent) throws IOException {
+        MainApplication.stage.setUserData(heroes);
         FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("game-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 900, 700);
-        MainApplication.stage.setUserData(heroes);
         MainApplication.stage.setScene(scene);
         MainApplication.stage.show();
     }

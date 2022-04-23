@@ -7,6 +7,8 @@ public class Game {
     private List<Hero> heroes;
     private int playerTurn;
 
+    public static enum Status {START_COMBAT, HERO_TURN, ENEMY_TURN, END_GAME, BREAK }
+
     public Game(List<Hero> heroes, int playerTurn) {
         this.heroes = heroes;
         this.playerTurn = playerTurn;

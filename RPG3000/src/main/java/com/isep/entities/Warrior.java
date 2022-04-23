@@ -9,6 +9,7 @@ public class Warrior extends Hero {
         this.setLifePoints(10);
         this.setArmor(10);
         this.setWeaponDamage(3);
+        this.setName("Warrior");
     }
 
     @Override

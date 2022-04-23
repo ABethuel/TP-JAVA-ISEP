@@ -10,6 +10,7 @@ public class Mage extends SpellCaster{
         this.setWeaponDamage(1);
         this.setManaPoints(6);
         this.setManaUse(3);
+        this.setName("Mage");
     }
     @Override
     public int attack() {

@@ -4,5 +4,6 @@ public class Boss extends Enemy{
     public Boss(){
         this.setLifePoints(12);
         this.setDamagePoints(2);
+        this.setName("Boss");
     }
 }

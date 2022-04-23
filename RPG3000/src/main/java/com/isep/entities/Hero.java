@@ -10,6 +10,7 @@ public abstract class Hero {
     private int weaponDamage;
     private List<Potion> potions;
     private List<Food> lembas;
+    private String name;
 
     // Getter/Setters
     public int getLifePoints() {
@@ -28,6 +29,10 @@ public abstract class Hero {
         return lembas;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void setLifePoints(int lifePoints) {
         this.lifePoints = lifePoints;
     }
@@ -42,6 +47,10 @@ public abstract class Hero {
     }
     public void setLembas(List<Food> lembas) {
         this.lembas = lembas;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     // Méthodes

@@ -10,6 +10,7 @@ public class Healer extends SpellCaster{
         this.setWeaponDamage(1);
         this.setManaPoints(6);
         this.setManaUse(3);
+        this.setName("SpellCaster");
     }
 
     @Override

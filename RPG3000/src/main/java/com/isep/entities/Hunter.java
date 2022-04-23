@@ -11,6 +11,7 @@ public class Hunter extends Hero{
         this.setLifePoints(5);
         this.setArmor(5);
         this.setWeaponDamage(2);
+        this.setName("Hunter");
     }
 
     @Override

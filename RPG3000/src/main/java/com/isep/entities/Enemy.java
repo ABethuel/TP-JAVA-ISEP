@@ -3,6 +3,7 @@ package com.isep.entities;
 public abstract class Enemy {
     int lifePoints;
     int damagePoints;
+    String name;
 
     public int getLifePoints() {
         return lifePoints;
@@ -18,6 +19,14 @@ public abstract class Enemy {
 
     public void setDamagePoints(int damagePoints) {
         this.damagePoints = damagePoints;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int attack(){
