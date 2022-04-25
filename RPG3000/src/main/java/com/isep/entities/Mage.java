@@ -11,6 +11,10 @@ public class Mage extends SpellCaster{
         this.setManaPoints(6);
         this.setManaUse(3);
         this.setName("Mage");
+        Food food = new Food();
+        this.setLembas(food);
+        Potion potion = new Potion();
+        this.setPotions(potion);
     }
     @Override
     public int attack() {
@@ -18,6 +22,7 @@ public class Mage extends SpellCaster{
             System.out.println("T'as plus de magie frr");
             return 0;
         }else {
+            updateManaPointsAfterAttack();
             return getMagicDamage();
         }
     }

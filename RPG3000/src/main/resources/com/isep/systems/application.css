@@ -8,3 +8,11 @@
 .vbox_choice {
     -fx-background-color: white;
 }
+
+.pane_box {
+    -fx-background-color: white;
+}
+
+.vbox_list_hero {
+    -fx-background-color: #ececec;
+}

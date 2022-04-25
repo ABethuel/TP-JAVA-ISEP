@@ -74,7 +74,7 @@ public class ChoiceTeamController {
                 case "warrior" -> actualHero = new Warrior();
                 case "hunter" -> actualHero = new Hunter(5);
                 case "mage" -> actualHero = new Mage();
-                case "healer" -> new Healer();
+                case "healer" -> actualHero = new Healer();
             }
             validateButton.setDisable(true);
         }

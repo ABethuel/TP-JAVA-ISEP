@@ -10,12 +10,26 @@ public class Healer extends SpellCaster{
         this.setWeaponDamage(1);
         this.setManaPoints(6);
         this.setManaUse(3);
-        this.setName("SpellCaster");
+        this.setName("Healer");
+        Food food = new Food();
+        this.setLembas(food);
+        Potion potion = new Potion();
+        this.setPotions(potion);
     }
 
     @Override
     public int attack() {
-        return getWeaponDamage();
+        if (getManaPoints() <= 0){
+            System.out.println("T'as plus de magie frr");
+            return 0;
+        }else {
+            updateManaPointsAfterAttack();
+            return getWeaponDamage();
+        }
+    }
+
+    private void updateManaPointsAfterAttack() {
+        setManaPoints(getManaPoints() - getManaUse());
     }
 
     @Override

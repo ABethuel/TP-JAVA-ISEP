@@ -1,5 +1,6 @@
 package com.isep.entities;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Hero {
@@ -8,9 +9,10 @@ public abstract class Hero {
     private int lifePoints;
     private int armor;
     private int weaponDamage;
-    private List<Potion> potions;
-    private List<Food> lembas;
+    private List<Potion> potions= new ArrayList<Potion>();
+    private List<Food> lembas = new ArrayList<Food>();
     private String name;
+
 
     // Getter/Setters
     public int getLifePoints() {
@@ -28,7 +30,6 @@ public abstract class Hero {
     public List<Food> getLembas() {
         return lembas;
     }
-
     public String getName() {
         return name;
     }
@@ -42,13 +43,12 @@ public abstract class Hero {
     public void setWeaponDamage(int weaponDamage) {
         this.weaponDamage = weaponDamage;
     }
-    public void setPotions(List<Potion> potions) {
-        this.potions = potions;
+    public void setPotions(Potion potion) {
+        this.potions.add(potion);
     }
-    public void setLembas(List<Food> lembas) {
-        this.lembas = lembas;
+    public void setLembas(Food lembas) {
+        this.lembas.add(lembas);
     }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -82,8 +82,8 @@ public abstract class Hero {
         if (isListItemsEmpty(listItems)){
             System.out.println("Pas d'items dans cette liste");
         }else{
+            setLifePoints(consumable.use(this));
             listItems.remove(consumable);
-            setLifePoints(getLifePoints() + 2);
         }
     }
 }

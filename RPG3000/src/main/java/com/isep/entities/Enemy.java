@@ -3,7 +3,7 @@ package com.isep.entities;
 public abstract class Enemy {
     int lifePoints;
     int damagePoints;
-    String name;
+    private String name;
 
     public int getLifePoints() {
         return lifePoints;

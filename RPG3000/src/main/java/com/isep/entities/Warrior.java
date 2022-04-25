@@ -10,6 +10,10 @@ public class Warrior extends Hero {
         this.setArmor(10);
         this.setWeaponDamage(3);
         this.setName("Warrior");
+        Food food = new Food();
+        this.setLembas(food);
+        Potion potion = new Potion();
+        this.setPotions(potion);
     }
 
     @Override
@@ -26,4 +30,6 @@ public class Warrior extends Hero {
     public int defend() {
         return 1;
     }
+
+
 }

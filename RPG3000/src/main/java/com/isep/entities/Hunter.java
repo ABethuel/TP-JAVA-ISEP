@@ -12,11 +12,16 @@ public class Hunter extends Hero{
         this.setArmor(5);
         this.setWeaponDamage(2);
         this.setName("Hunter");
+        Food food = new Food();
+        this.setLembas(food);
+        Potion potion = new Potion();
+        this.setPotions(potion);
     }
 
     @Override
     public int attack() {
         if (arrows > 0){
+            setArrows(getArrows() - 1);
             return getWeaponDamage();
         }
         else{

@@ -26,7 +26,7 @@
                         <Font name="System Bold" size="13.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="inputNumberHeroes" alignment="CENTER" onKeyTyped="#onSetNumber" prefHeight="3.0" prefWidth="33.0" text="1" />
+                  <TextField fx:id="inputNumberHeroes" alignment="CENTER" onKeyTyped="#onSetNumber" prefHeight="3.0" prefWidth="33.0" />
                </children>
             </HBox>
             <Label fx:id="numberHeroLabel" />
@@ -48,7 +48,7 @@
             </VBox>
             <HBox alignment="CENTER" prefHeight="76.0" prefWidth="563.0">
                <children>
-                  <Button fx:id="startButton" defaultButton="true" disable="true" mnemonicParsing="false" text="Lancer la partie" onAction="#onClickStart" />
+                  <Button fx:id="startButton" defaultButton="true" disable="true" mnemonicParsing="false" onAction="#onClickStart" text="Lancer la partie" />
                </children>
             </HBox>
          </children>
