@@ -16,3 +16,10 @@
 .vbox_list_hero {
     -fx-background-color: #ececec;
 }
+
+.background_death {
+    -fx-background-image:url('../../../assets/images/background_death.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: 900px 700px;
+}

@@ -1,51 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="RPG3000:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04237751-8fb2-4f8d-8ceb-65d1bc530f92" name="Changes" comment="add">
-      <change afterPath="$PROJECT_DIR$/assets/death.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/BigBoss.java" afterDir="false" />
+    <list default="true" id="04237751-8fb2-4f8d-8ceb-65d1bc530f92" name="Changes" comment="game view (attack, enemy, list hero and update screen)">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/RPG3000_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/EndgameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/GuideController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/images/Charte_des_stages.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/images/background_death.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/isep/systems/endgame-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/isep/systems/guide-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/basic_enemy.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/basicenemy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/BasicEnemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/BasicEnemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Boss.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Consumable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Consumable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Healer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hunter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Mage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Potion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/SpellCaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/SpellCaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/systems/ChoiceTeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/ChoiceTeamController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/systems/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/systems/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/isep/systems/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/isep/systems/application.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/isep/systems/choice-team-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/isep/systems/choice-team-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/isep/systems/game-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/isep/systems/game-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/BasicEnemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/BasicEnemy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Boss.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Boss.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/isep/systems/start-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/isep/systems/start-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Consumable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Consumable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Enemy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Game$Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Game$Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Healer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Healer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Hunter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Hunter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Mage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Mage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Potion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Potion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Warrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Warrior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/ChoiceTeamController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/ChoiceTeamController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/application.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/choice-team-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/choice-team-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/game-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/game-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/start-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/start-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/isep/systems" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Garage/wschess" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/openjfx-17.0.2_windows-x64_bin-sdk/javafx-sdk-17.0.2/bin/vcruntime140_1.dll" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
@@ -121,13 +122,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -157,7 +160,10 @@
       <workItem from="1650148016671" duration="5513000" />
       <workItem from="1650611057319" duration="8767000" />
       <workItem from="1650802199271" duration="14195000" />
-      <workItem from="1650910504469" duration="12841000" />
+      <workItem from="1650910504469" duration="13114000" />
+      <workItem from="1650992844621" duration="26218000" />
+      <workItem from="1651169711880" duration="12351000" />
+      <workItem from="1651186151698" duration="1031000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1650282764338</created>
@@ -166,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650282764338</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="game view (attack, enemy, list hero and update screen)">
+      <created>1650929118657</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650929118657</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +200,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="game view (attack, enemy, list hero and update screen)" />
+    <option name="LAST_COMMIT_MESSAGE" value="game view (attack, enemy, list hero and update screen)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

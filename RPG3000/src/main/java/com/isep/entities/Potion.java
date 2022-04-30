@@ -7,8 +7,7 @@ public class Potion extends Consumable {
     }
 
     @Override
-    public int use(Hero hero) {
-        hero.setWeaponDamage(hero.getLifePoints() + getEfficiency());
-        return 0;
+    public void use(Hero hero) {
+        hero.setWeaponDamage(hero.getWeaponDamage() + getEfficiency());
     }
 }

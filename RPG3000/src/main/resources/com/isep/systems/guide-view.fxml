@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" styleClass="anchor_start" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.isep.systems.GuideController">
+    <stylesheets>
+        <URL value="@application.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="56.0" layoutY="84.0" prefHeight="517.0" prefWidth="790.0" styleClass="pane_box">
+         <children>
+            <Label layoutX="84.0" layoutY="23.0" prefHeight="31.0" prefWidth="622.0" text="Bienvenue, le sort du monde est entre vos mains. De vos choix va dépendre la survie de tous...">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="122.0" layoutY="99.0" />
+            <Label layoutX="111.0" layoutY="45.0" prefHeight="19.0" prefWidth="597.0" text="A chaque incursion chez l'ennemi, vous devrez choisir votre nombre de compagnons. ">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="182.0" layoutY="64.0" text="Ceux-ci peuvent être Guerrier, Chasseur, Mage ou encore Guérisseur.">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="245.0" layoutY="83.0" text="Choisissez bien cela définira notre futur à tous.">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="98.0" layoutY="142.0" text="Vous vous battrez jusqu'à la mort de toutes votre équipe. Puisse votre sacrifice être salvateur...">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="151.0" layoutY="123.0" text="A chaque étape, vous devrez affronter de nouveaux ennemis redoutables,">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="64.0" layoutY="189.0" text="A chaque combat, chacun de vos compagnons aura le choix entre attaquer ou utiliser un consommable.">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="264.0" layoutY="229.0" text="Vos compagnons seront tous différents : ">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="129.0" layoutY="249.0" text="Le Guerrier tape fort au corps à corps mais risque de se prendre une contre attaque.">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="136.0" layoutY="267.0" text="Le Chasseur attaque à distance avec son arc redoutable et ne craint pas la riposte.">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="154.0" layoutY="286.0" text="Le Mage attaque également à distance, mais grâce à ses pouvoirs magiques. ">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="305.0" text="Le Guerriseur, quant à lui, attaque faiblement, mais il peut soigner ses camarades et ainsi les protéger au combat.">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="73.0" layoutY="324.0" text="Attention camarade, les ressources de ces trois derniers héros sont limitées, utilise-les avec sagesse...">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="102.0" layoutY="359.0" text="Si votre équipe gagne un combat, divers possibilités s'ouvriront pour vos illustres combattants.">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="378.0" text="Ils pourront améliorer leurs armures ou leurs armes ou bien améliorer l'efficacité des consommables ou leur nombre.">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="229.0" layoutY="397.0" text="Le Chasseur pourra récupérer des flèches pour son arc.">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="125.0" layoutY="416.0" text="Les deux Sorceleurs pourront diminuer le cout en mana de leurs sorts ou les améliorer.">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="458.0" text="Bonne chance camarade ! Puisse le sort vous être favorable...">
+               <font>
+                  <Font name="Berlin Sans FB" size="16.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Label layoutX="317.0" layoutY="32.0" text="Petit guide de survie" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="27.0" />
+         </font>
+      </Label>
+      <Button defaultButton="true" layoutX="390.0" layoutY="624.0" mnemonicParsing="false" onAction="#onClickBack" prefHeight="37.0" prefWidth="122.0" text="Retour au menu" />
+   </children>
+</AnchorPane>

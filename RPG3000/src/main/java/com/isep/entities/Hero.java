@@ -74,16 +74,7 @@ public abstract class Hero {
 
     public abstract int defend();
 
-    public boolean isListItemsEmpty(List<Consumable> listItems) {
-        return listItems.size() <= 0;
-    }
-
-    public void useConsumables(Consumable consumable, List<Consumable> listItems){
-        if (isListItemsEmpty(listItems)){
-            System.out.println("Pas d'items dans cette liste");
-        }else{
-            setLifePoints(consumable.use(this));
-            listItems.remove(consumable);
-        }
+    public void useConsumable(Consumable consumable){
+        consumable.use(this);
     }
 }

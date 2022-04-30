@@ -7,8 +7,7 @@ public class Food extends Consumable {
     }
 
     @Override
-    public int use(Hero hero) {
+    public void use(Hero hero) {
         hero.setLifePoints(hero.getLifePoints() + getEfficiency());
-        return 0;
     }
 }

@@ -17,15 +17,15 @@
     </stylesheets>
     <Label layoutX="243.0" layoutY="25.0" text="Battez vous pour le destin du monde" textFill="WHITE">
         <font>
-          <Font name="System Bold" size="24.0" />
+          <Font name="Berlin Sans FB Bold" size="24.0" />
         </font>
     </Label>
    <Label layoutX="250.0" layoutY="72.0" text="Votre défaite reviendrait à la victoire des forces du mal..." textFill="WHITE">
       <font>
-         <Font name="System Bold" size="15.0" />
+         <Font name="Berlin Sans FB Bold" size="15.0" />
       </font>
    </Label>
-   <Pane layoutX="63.0" layoutY="109.0" prefHeight="570.0" prefWidth="787.0" styleClass="pane_box">
+   <Pane fx:id="fightPane" layoutX="72.0" layoutY="105.0" prefHeight="570.0" prefWidth="787.0" styleClass="pane_box">
       <children>
          <Label fx:id="roundLabel" layoutX="364.0" layoutY="14.0" text="Round 1">
             <font>
@@ -52,6 +52,7 @@
             <children>
                <Label fx:id="lifePointsLabel" text="PV :  10" />
                <Label fx:id="armorLabel" text="Armure : 4" />
+               <Label fx:id="damageLabel" text="Dégats : 2" />
                <Label fx:id="lembasLabel" text="Lembas : 3" />
                <Label fx:id="potionsLabel" text="Potions : 2" />
                <Label fx:id="distanceAttackLabel" text="Flèches disponible : 6" />
@@ -78,4 +79,75 @@
             </font>
          </Label>
       </children></Pane>
+   <Pane fx:id="rewardPane" layoutX="72.0" layoutY="105.0" prefHeight="570.0" prefWidth="787.0" styleClass="pane_box" visible="false">
+      <children>
+         <Label layoutX="208.0" layoutY="20.0" text="Félicitations, vous avez vainu un redoutable adversaire !">
+            <font>
+               <Font name="Berlin Sans FB" size="16.0" />
+            </font>
+         </Label>
+         <Label layoutX="241.0" layoutY="39.0" text="Vous avez mérité une récompense, camarade !">
+            <font>
+               <Font name="Berlin Sans FB" size="16.0" />
+            </font>
+         </Label>
+         <ImageView fx:id="imageHeroReward" fitHeight="196.0" fitWidth="237.0" layoutX="241.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../../../../assets/warrior.png" />
+            </image>
+         </ImageView>
+         <VBox alignment="TOP_CENTER" layoutX="415.0" layoutY="168.0" prefHeight="95.0" prefWidth="135.0">
+            <children>
+               <Label fx:id="lifePointsRewardLabel" text="PV :  10" />
+               <Label fx:id="armorRewardLabel" text="Armure : 4" />
+               <Label fx:id="damageRewardLabel" text="Dégats : 2" />
+               <Label fx:id="lembasRewardLabel" prefHeight="13.0" prefWidth="57.0" text="Lembas : 3" />
+               <Label fx:id="potionsLabelReward" text="Potions : 2" />
+               <Label fx:id="distanceRewardAttackLabel" text="Flèches disponible : 6" />
+               <Label />
+            </children>
+         </VBox>
+         <Button fx:id="improveArmorButton" defaultButton="true" layoutX="264.0" layoutY="350.0" mnemonicParsing="false" onAction="#improveArmorOnClick" prefHeight="25.0" prefWidth="125.0" text="Améliorer son armure">
+            <font>
+               <Font name="Berlin Sans FB" size="12.0" />
+            </font>
+         </Button>
+         <Button fx:id="improveWeaponButton" defaultButton="true" layoutX="401.0" layoutY="350.0" mnemonicParsing="false" onAction="#improveWeaponOnClick" prefHeight="25.0" prefWidth="125.0" text="Améliorer son arme">
+            <font>
+               <Font name="Berlin Sans FB" size="12.0" />
+            </font>
+         </Button>
+         <Button fx:id="improveConsommableButton" defaultButton="true" layoutX="96.0" layoutY="350.0" mnemonicParsing="false" onAction="#improveConsommableOnClick" prefHeight="25.0" prefWidth="154.0" text="Améliorer consommable">
+            <font>
+               <Font name="Berlin Sans FB" size="12.0" />
+            </font>
+         </Button>
+         <Button fx:id="newConsommableButton" defaultButton="true" layoutX="537.0" layoutY="350.0" mnemonicParsing="false" onAction="#newConsommableOnClick" prefHeight="25.0" prefWidth="154.0" text="Ajouter consommables">
+            <font>
+               <Font name="Berlin Sans FB" size="12.0" />
+            </font>
+         </Button>
+         <Button fx:id="newArrowsButton" defaultButton="true" layoutX="331.0" layoutY="387.0" mnemonicParsing="false" onAction="#newArrowsOnClick" prefHeight="25.0" prefWidth="125.0" text="Ajouter des flèches">
+            <font>
+               <Font name="Berlin Sans FB" size="12.0" />
+            </font>
+         </Button>
+         <Button fx:id="costManaButton" defaultButton="true" layoutX="331.0" layoutY="426.0" mnemonicParsing="false" onAction="#costManaOnClick" prefHeight="25.0" prefWidth="125.0" text="Baisser coût des sorts">
+            <font>
+               <Font name="Berlin Sans FB" size="12.0" />
+            </font>
+         </Button>
+         <Button fx:id="improveSpellButton" defaultButton="true" layoutX="475.0" layoutY="426.0" mnemonicParsing="false" onAction="#improveSpellOnClick" prefHeight="25.0" prefWidth="125.0" text="Améliorer les sorts">
+            <font>
+               <Font name="Berlin Sans FB" size="12.0" />
+            </font>
+         </Button>
+         <Button fx:id="newManaButton" defaultButton="true" layoutX="188.0" layoutY="426.0" mnemonicParsing="false" onAction="#newManaOnClick" prefHeight="25.0" prefWidth="125.0" text="Augmenter mana">
+            <font>
+               <Font name="Berlin Sans FB" size="12.0" />
+            </font>
+         </Button>
+         <Button fx:id="nextHeroRewardButton" defaultButton="true" disable="true" layoutX="331.0" layoutY="464.0" mnemonicParsing="false" onAction="#nextHeroRewardOnClick" prefHeight="25.0" prefWidth="125.0" text="Héro suivant" />
+      </children>
+   </Pane>
 </AnchorPane>

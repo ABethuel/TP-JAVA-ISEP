@@ -7,7 +7,7 @@ public class Mage extends SpellCaster{
     public Mage(){
         this.setLifePoints(7);
         this.setArmor(3);
-        this.setWeaponDamage(1);
+        this.setWeaponDamage(2);
         this.setManaPoints(6);
         this.setManaUse(3);
         this.setName("Mage");

@@ -29,7 +29,6 @@ public class Healer extends SpellCaster{
     }
 
     private void updateManaPointsAfterAttack() {
-        setManaPoints(getManaPoints() - getManaUse());
     }
 
     @Override
@@ -46,7 +45,7 @@ public class Healer extends SpellCaster{
     }
 
     public void healHero(Hero hero){
-        if (getManaPoints() >= 0){
+        if (getManaPoints() > 0){
             hero.setLifePoints(hero.getLifePoints() + getManaHeal());
             setManaPoints(getManaPoints() - getManaUse());
         }else{
