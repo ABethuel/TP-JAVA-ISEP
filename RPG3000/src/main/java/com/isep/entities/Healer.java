@@ -48,6 +48,7 @@ public class Healer extends SpellCaster{
         if (getManaPoints() > 0){
             hero.setLifePoints(hero.getLifePoints() + getManaHeal());
             setManaPoints(getManaPoints() - getManaUse());
+            updateManaPointsAfterAttack();
         }else{
             System.out.println("T'as plus de magie =(");
         }

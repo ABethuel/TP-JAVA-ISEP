@@ -27,7 +27,7 @@ import static com.isep.systems.MainApplication.stage;
 
 public class ChoiceTeamController {
     ObservableList<String> list= FXCollections.observableArrayList();
-    public List<Hero> heroes = new ArrayList<Hero>();;
+    public List<Hero> heroes = new ArrayList<Hero>();
     public Hero actualHero;
 
     @FXML

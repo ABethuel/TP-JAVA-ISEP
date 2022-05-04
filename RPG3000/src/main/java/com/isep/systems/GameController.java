@@ -284,6 +284,7 @@ public class GameController {
 
         lembasLabel.setText("Lembas : " + hero.getLembas().size());
         potionsLabel.setText("Potions : " + hero.getPotions().size());
+
     }
 
     private void updateButtons(){
