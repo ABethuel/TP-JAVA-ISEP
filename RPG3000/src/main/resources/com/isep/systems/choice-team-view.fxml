@@ -14,7 +14,7 @@
 
 <AnchorPane prefHeight="700.0" prefWidth="900.0" styleClass="anchor_start" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.isep.systems.ChoiceTeamController">
    <stylesheets>
-      <URL value="@application.css" />
+      <URL value="@application.css"/>
    </stylesheets>
    <children>
       <VBox alignment="BASELINE_CENTER" layoutX="172.0" layoutY="95.0" prefHeight="510.0" prefWidth="556.0" styleClass="vbox_choice">

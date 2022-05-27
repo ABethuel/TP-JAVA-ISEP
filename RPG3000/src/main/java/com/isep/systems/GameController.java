@@ -354,7 +354,7 @@ public class GameController {
     }
 
     @FXML
-    public void newConsommableOnClick(ActionEvent actionEvent) {
+    public void newConsumableOnClick(ActionEvent actionEvent) {
         heroReward.setLembas(new Food());
         heroReward.setPotions(new Potion());
         updateRewardScreen();
