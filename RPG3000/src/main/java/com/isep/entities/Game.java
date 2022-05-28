@@ -44,8 +44,8 @@ public class Game {
         this.numberOfRounds = numberOfRounds;
     }
 
-    public void playGame() {
-        
+    public boolean isGameOver() {
+        return heroes.size() == 0;
     }
 
     public Enemy generateCombat() {

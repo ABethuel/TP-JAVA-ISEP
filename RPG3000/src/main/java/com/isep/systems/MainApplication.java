@@ -18,9 +18,6 @@ public class MainApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 900, 700);
         MainApplication.stage = stage;
 
-        // Instancing music background
-        String path = "../../../../../resources/assets/musics/music.mp3";
-
         stage.setResizable(false);
         stage.setTitle("RPG3000!");
         stage.setScene(scene);

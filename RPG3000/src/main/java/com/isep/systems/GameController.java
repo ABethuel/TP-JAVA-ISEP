@@ -126,7 +126,6 @@ public class GameController {
     @FXML
     public void attackOnClick(ActionEvent actionEvent) throws InterruptedException {
         enemy.receiveAttack(hero);
-        System.out.println(enemy.getLifePoints());
         updateScreen();
         updateButtons();
         enemyAttack();
@@ -183,7 +182,7 @@ public class GameController {
     public void nextHeroOnClick(ActionEvent actionEvent) throws IOException {
         if (hero.getLifePoints() <= 0){
             heroes.remove(hero);
-            if (heroes.size() <= 0 ) {
+            if (game.isGameOver()) {
                 MainApplication.stage.setUserData(game.getNumberOfRounds());
                 FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("endgame-view.fxml"));
                 Scene scene = new Scene(fxmlLoader.load(), 900, 700);

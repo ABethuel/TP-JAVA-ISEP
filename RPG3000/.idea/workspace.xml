@@ -10,22 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04237751-8fb2-4f8d-8ceb-65d1bc530f92" name="Changes" comment="little correction">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/isep/entities/HeroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/isep/entities/GameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/isep/entities/HunterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/isep/entities/TestConsumable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/isep/entities/TestSpellCaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Consumable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Consumable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Potion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/systems/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/isep/systems/choice-team-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/isep/systems/choice-team-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/isep/systems/game-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/isep/systems/game-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Consumable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Consumable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Food.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Food.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Healer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Healer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Potion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Potion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/isep/entities/HeroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/isep/entities/HeroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/choice-team-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/choice-team-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/game-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/game-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,20 +86,7 @@
       <recent name="com.isep.systems" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HeroTest.testPV">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MainApplication">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.isep.systems.MainApplication" />
       <module name="RPG3000" />
@@ -117,7 +100,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroTest.testPV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HunterTest.testAttackWithMana" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPG3000" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +120,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.isep.entities" />
-      <option name="MAIN_CLASS_NAME" value="com.isep.entities.HeroTest" />
-      <option name="METHOD_NAME" value="testPV" />
+      <option name="MAIN_CLASS_NAME" value="com.isep.entities.HunterTest" />
+      <option name="METHOD_NAME" value="testAttackWithMana" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConsumable.testUseLembas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPG3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isep.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.isep.entities" />
+      <option name="MAIN_CLASS_NAME" value="com.isep.entities.TestConsumable" />
+      <option name="METHOD_NAME" value="testUseLembas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConsumable.testUsePotion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPG3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isep.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.isep.entities" />
+      <option name="MAIN_CLASS_NAME" value="com.isep.entities.TestConsumable" />
+      <option name="METHOD_NAME" value="testUsePotion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpellCaster.testHealerCanHeal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPG3000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.isep.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.isep.entities" />
+      <option name="MAIN_CLASS_NAME" value="com.isep.entities.TestSpellCaster" />
+      <option name="METHOD_NAME" value="testHealerCanHeal" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,8 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HeroTest.testPV" />
         <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.TestSpellCaster.testHealerCanHeal" />
+        <item itemvalue="JUnit.TestConsumable.testUseLembas" />
+        <item itemvalue="JUnit.TestConsumable.testUsePotion" />
+        <item itemvalue="JUnit.HunterTest.testAttackWithMana" />
       </list>
     </recent_temporary>
   </component>
