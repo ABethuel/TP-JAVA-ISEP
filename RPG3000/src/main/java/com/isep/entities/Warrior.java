@@ -6,9 +6,9 @@ import java.util.Random;
 public class Warrior extends Hero {
 
     public Warrior(){
-        this.setLifePoints(10);
+        this.setLifePoints(12);
         this.setArmor(10);
-        this.setWeaponDamage(3);
+        this.setWeaponDamage(4);
         this.setName("Warrior");
         Food food = new Food();
         this.setLembas(food);

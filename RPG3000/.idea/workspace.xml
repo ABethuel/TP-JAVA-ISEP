@@ -9,19 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04237751-8fb2-4f8d-8ceb-65d1bc530f92" name="Changes" comment="little correction">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/isep/entities/GameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/isep/entities/HunterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/isep/entities/TestConsumable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/isep/entities/TestSpellCaster.java" afterDir="false" />
+    <list default="true" id="04237751-8fb2-4f8d-8ceb-65d1bc530f92" name="Changes" comment="Consumable interface + first tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/systems/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/isep/entities/HeroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/isep/entities/HeroTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/entities/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/entities/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/isep/systems/GameController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +76,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.MainApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.isep.systems.MainApplication" />
       <module name="RPG3000" />
@@ -100,18 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HunterTest.testAttackWithMana" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeroTest.testIsHeroDying" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPG3000" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +109,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.isep.entities" />
-      <option name="MAIN_CLASS_NAME" value="com.isep.entities.HunterTest" />
-      <option name="METHOD_NAME" value="testAttackWithMana" />
+      <option name="MAIN_CLASS_NAME" value="com.isep.entities.HeroTest" />
+      <option name="METHOD_NAME" value="testIsHeroDying" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,10 +167,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.HeroTest.testIsHeroDying" />
         <item itemvalue="JUnit.TestSpellCaster.testHealerCanHeal" />
         <item itemvalue="JUnit.TestConsumable.testUseLembas" />
         <item itemvalue="JUnit.TestConsumable.testUsePotion" />
-        <item itemvalue="JUnit.HunterTest.testAttackWithMana" />
       </list>
     </recent_temporary>
   </component>

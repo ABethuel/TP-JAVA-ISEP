@@ -8,9 +8,9 @@ public class Hunter extends Hero{
 
     public Hunter(int arrows) {
         this.arrows = arrows;
-        this.setLifePoints(5);
+        this.setLifePoints(10);
         this.setArmor(5);
-        this.setWeaponDamage(2);
+        this.setWeaponDamage(3);
         this.setName("Hunter");
         Food food = new Food();
         this.setLembas(food);

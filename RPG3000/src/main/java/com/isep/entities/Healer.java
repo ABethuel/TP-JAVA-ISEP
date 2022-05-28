@@ -5,9 +5,9 @@ public class Healer extends SpellCaster{
     private int manaHeal = 1;
 
     public Healer(){
-        this.setLifePoints(7);
-        this.setArmor(3);
-        this.setWeaponDamage(1);
+        this.setLifePoints(9);
+        this.setArmor(4);
+        this.setWeaponDamage(2);
         this.setManaPoints(6);
         this.setManaUse(3);
         this.setName("Healer");
