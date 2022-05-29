@@ -21,7 +21,7 @@ import java.util.List;
 
 public class GameController {
 
-    public List<Hero> heroes = (List<Hero>) MainApplication.stage.getUserData();
+    public List<Hero> heroes = (List<Hero>) MainApplication.stage.getUserData(); // On récupère les données transmises
     Game game = new Game(heroes, 0);
 
     @FXML
@@ -115,7 +115,6 @@ public class GameController {
     int heroRewardTurn = 0;
 
     public void initialize(){
-        System.out.println("Your heroes : " + heroes);
         vsImage.setImage(new Image(urlImage + "crossed_swords.png"));
         game.setHeroes(heroes);
         game.setNumberOfRounds(1);
@@ -125,7 +124,7 @@ public class GameController {
 
     @FXML
     public void attackOnClick(ActionEvent actionEvent) throws InterruptedException {
-        enemy.receiveAttack(hero);
+        enemy.receiveAttack(hero); // Attaque d'un héro
         updateScreen();
         updateButtons();
         enemyAttack();
@@ -136,7 +135,7 @@ public class GameController {
     public void lembasOnClick(ActionEvent actionEvent) throws InterruptedException, IOException {
         hero.useConsumable(lembas);
         hero.getLembas().remove(lembas);
-        if (hero.getLembas().size() > 0){
+        if (hero.getLembas().size() > 0){ // SI le hero a encore des lembas il peut en utiliser
             lembas = hero.getLembas().get(0);
         }
         updateScreen();
@@ -148,7 +147,7 @@ public class GameController {
     public void potionsOnClick(ActionEvent actionEvent) throws InterruptedException, IOException {
         hero.useConsumable(potion);
         hero.getPotions().remove(potion);
-        if (hero.getPotions().size() > 0){
+        if (hero.getPotions().size() > 0){// SI le hero a encore des potions il peut en utiliser
             potion = hero.getPotions().get(0);
         }
         updateScreen();
@@ -158,6 +157,7 @@ public class GameController {
 
     @FXML
     public void healOnClick(ActionEvent actionEvent) throws IOException, InterruptedException {
+        // On soigne le héro en choisissant dans la liste
         attackButton.setDisable(true);
         potionButton.setDisable(true);
         lembasButton.setDisable(true);
@@ -181,7 +181,8 @@ public class GameController {
     @FXML
     public void nextHeroOnClick(ActionEvent actionEvent) throws IOException {
         if (hero.getLifePoints() <= 0){
-            heroes.remove(hero);
+            heroes.remove(hero); // On supprime le héros de la liste à sa mort
+            // S'il ne reste plus de héro alors on charge la page de fin
             if (game.isGameOver()) {
                 MainApplication.stage.setUserData(game.getNumberOfRounds());
                 FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("endgame-view.fxml"));
@@ -190,19 +191,19 @@ public class GameController {
                 MainApplication.stage.show();
                 System.out.println(" ------ Endgame ------");
             }else{
-                hero = heroes.get(0);
+                hero = heroes.get(0); // Le héro est mort, on met à jour le héro et la liste
                 setListHeroes();
             }
         }else{
-            game.setPlayerTurn(game.getPlayerTurn() + 1 );
+            game.setPlayerTurn(game.getPlayerTurn() + 1 );  // Le héro n'est pas mort, on va chercher le suivant dans la liste
             if (game.getPlayerTurn() >= heroes.size()){
-                game.setPlayerTurn(0);
+                game.setPlayerTurn(0); // Si on arrive au dernier element de la liste on revient au début
             }
-            hero = heroes.get(game.getPlayerTurn());
+            hero = game.getHero();
             setListHeroes();
         }
 
-        if (enemy.getLifePoints() <= 0){
+        if (enemy.getLifePoints() <= 0){ // Si l'enemi est mort on en génère un nouveau et on a round gagné
             enemy = game.generateCombat();
             game.setNumberOfRounds(game.getNumberOfRounds() + 1);
         }
@@ -286,6 +287,7 @@ public class GameController {
 
     }
 
+    // On met à jour les boutons selon la situation
     private void updateButtons(){
         if (nextHeroButton.isDisable()){
             nextHeroButton.setDisable(false);
@@ -300,6 +302,7 @@ public class GameController {
         }
     }
 
+    // Liste des héros affiché à l'écran
     private void setListHeroes(){
         listHeroes.clear();
         listHeroes.addAll(heroes);
@@ -320,17 +323,24 @@ public class GameController {
         });
     }
 
+    // Attaque de l'ennemi
     private void enemyAttack() throws InterruptedException {
         enemyAttackLabel.setVisible(true);
         hero.receiveAttack(enemy);
-        Thread.sleep(1200);
+        Thread.sleep(1200); // Temps de latence
         updateScreen();
         updateButtons();
     }
 
+    // ---- Les méthodes suivantes correspondent aux actions possibles après un combat gagné ----
+
     @FXML
     public void improveArmorOnClick(ActionEvent actionEvent) {
-        heroReward.setArmor(heroReward.getArmor() + 2);
+        if (heroReward.getArmor() <= 0 ){
+            heroReward.setArmor(2);
+        }else{
+            heroReward.setArmor(heroReward.getArmor() + 2);
+        }
         updateRewardScreen();
         updateRewardsButtons();
     }
@@ -387,13 +397,14 @@ public class GameController {
 
     @FXML
     public void newManaOnClick(ActionEvent actionEvent) {
-        ((SpellCaster) heroReward).setManaPoints(((SpellCaster) heroReward).getManaPoints() + 2);
+        ((SpellCaster) heroReward).setManaPoints(((SpellCaster) heroReward).getManaPoints() + 4);
         updateRewardScreen();
         updateRewardsButtons();
     }
 
     @FXML
     public void nextHeroRewardOnClick(ActionEvent actionEvent) {
+        // On met à jour l'écran selon la situation
         heroRewardTurn ++;
         if (heroRewardTurn >= heroes.size()){
             fightPane.setVisible(true);
@@ -415,6 +426,7 @@ public class GameController {
         updateRewardsButtons();
     }
 
+    // Mise à jour de l'écran de récompense
     private void updateRewardScreen() {
         imageHeroReward.setImage(new Image(urlImage + heroReward.getName().toLowerCase() + ".png"));
         lifePointsRewardLabel.setText("PV : " + heroReward.getLifePoints());
@@ -457,6 +469,7 @@ public class GameController {
         potionsLabelReward.setText("Potions : " + heroReward.getPotions().size());
     }
 
+    // Mise à jour des boutons de récompense
     private void updateRewardsButtons(){
         if (nextHeroRewardButton.isDisable()){
             nextHeroRewardButton.setDisable(false);

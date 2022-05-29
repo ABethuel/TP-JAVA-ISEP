@@ -56,12 +56,13 @@ public abstract class Hero {
     // Méthodes
     public abstract int attack();
 
+    // Lorsque l'enemi attaque
     public void receiveAttack(Enemy enemy){
-        if (getArmor() <= 0){
+        if (getArmor() <= 0){  // Il s'attaque d'abord à l'armure
             int newLifePoints = getLifePoints();
             newLifePoints -= enemy.attack();
             setLifePoints(newLifePoints);
-        }else{
+        }else{                  // Puis au points de vie
             int newArmorPoints = getArmor();
             newArmorPoints -= enemy.attack();
             setArmor(newArmorPoints);
@@ -74,6 +75,7 @@ public abstract class Hero {
 
     public abstract int defend();
 
+    // Utilisation d'un consummable
     public void useConsumable(Consumable consumable){
         consumable.use(this);
     }

@@ -19,16 +19,11 @@ public class Mage extends SpellCaster{
     @Override
     public int attack() {
         if (getManaPoints() <= 0){
-            System.out.println("T'as plus de magie frr");
             return 0;
         }else {
             updateManaPointsAfterAttack();
             return getMagicDamage();
         }
-    }
-
-    public void updateManaPointsAfterAttack(){
-        setManaPoints(getManaPoints() - getManaUse());
     }
 
     @Override

@@ -21,5 +21,9 @@ public abstract class SpellCaster extends Hero {
         return manaUse;
     }
 
+    public void updateManaPointsAfterAttack(){
+        setManaPoints(getManaPoints() - getManaUse());
+    }
+
 
 }

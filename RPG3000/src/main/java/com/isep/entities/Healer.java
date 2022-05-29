@@ -19,16 +19,12 @@ public class Healer extends SpellCaster{
 
     @Override
     public int attack() {
-        if (getManaPoints() <= 0){
-            System.out.println("T'as plus de magie frr");
+        if (getManaPoints() <= 0){ // Sans magie il ne peut attaquer
             return 0;
         }else {
             updateManaPointsAfterAttack();
             return getWeaponDamage();
         }
-    }
-
-    private void updateManaPointsAfterAttack() {
     }
 
     @Override
@@ -44,10 +40,10 @@ public class Healer extends SpellCaster{
         this.manaHeal = manaHeal;
     }
 
+    // Le healer peut soigner les héros...
     public void healHero(Hero hero){
-        if (getManaPoints() > 0){
+        if (getManaPoints() > 0){  // ...Seulement s'il lui reste de la mana
             hero.setLifePoints(hero.getLifePoints() + getManaHeal());
-            setManaPoints(getManaPoints() - getManaUse());
             updateManaPointsAfterAttack();
         }else{
             System.out.println("T'as plus de magie =(");

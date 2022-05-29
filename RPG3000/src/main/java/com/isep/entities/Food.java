@@ -8,6 +8,7 @@ public class Food implements Consumable {
         setEfficiency(1);
     }
 
+    // La nourriture augmente les points de vie des héros
     @Override
     public void use(Hero hero) {
         hero.setLifePoints(hero.getLifePoints() + getEfficiency());

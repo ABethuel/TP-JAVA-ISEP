@@ -20,7 +20,7 @@ public class Hunter extends Hero{
 
     @Override
     public int attack() {
-        if (arrows > 0){
+        if (arrows > 0){ // S'il reste des flèches il est possible d'attaquer
             setArrows(getArrows() - 1);
             return getWeaponDamage();
         }

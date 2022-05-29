@@ -9,8 +9,6 @@ public class Game {
     private int playerTurn;
     private int numberOfRounds;
 
-    public static enum Status {START_COMBAT, HERO_TURN, ENEMY_TURN, END_GAME, BREAK }
-
     public Game(List<Hero> heroes, int playerTurn) {
         this.heroes = heroes;
         this.playerTurn = playerTurn;
@@ -48,6 +46,7 @@ public class Game {
         return heroes.size() == 0;
     }
 
+    // On génère un combat en choisissant aléatoirement un ennemi à affronter (boss, big boss, ou basic ennemy)
     public Enemy generateCombat() {
         Random random = new Random();
         Enemy enemy;

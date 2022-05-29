@@ -55,6 +55,7 @@ public class ChoiceTeamController {
         numberHeroLabel.setText("Héro 1");
     }
 
+    // On met les valeurs voulues dans le Choice Box
     private void loadChoiceBox(){
         list.removeAll();
         list.addAll("warrior", "mage", "healer", "hunter");
@@ -63,14 +64,13 @@ public class ChoiceTeamController {
 
     @FXML
     public void onClickValidate(ActionEvent actionEvent) {
-        System.out.println("Le clic fonctionne smr");
-        String hero = heroChoiceBox.getValue();
+        String hero = heroChoiceBox.getValue();  // On récupère la valeur
         if (hero == null ){
             heroImage.setImage(new Image(urlImage + "crossed_swords.png"));
         }else{
-            heroImage.setImage(new Image(urlImage + hero + ".png"));
+            heroImage.setImage(new Image(urlImage + hero + ".png"));  // On met à jour l'image du héro
             setNextButton();
-            switch (hero) {
+            switch (hero) {  // Selon ce qui a été choisi on définit l'héro
                 case "warrior" -> actualHero = new Warrior();
                 case "hunter" -> actualHero = new Hunter(5);
                 case "mage" -> actualHero = new Mage();
@@ -90,24 +90,21 @@ public class ChoiceTeamController {
         if (heroes.size() > numberHeroes - 1){
             validateButton.setDisable(true);
             nextHeroBtn.setDisable(true);
-            startButton.setDisable(false);
+            startButton.setDisable(false);  // Si on a choisit tous les héros on peut accèder à la page suivante
         }
         else{
-            heroes.add(actualHero);
+            heroes.add(actualHero); // On ajoute le héro à la liste
             inputNumberHeroes.setDisable(true);
             validateButton.setDisable(false);
             nextHeroBtn.setDisable(true);
             numberHeroLabel.setText("Héro " + (heroes.size() + 1) );
         }
-        System.out.println(heroes);
-        System.out.println(heroes.size());
-        System.out.println(numberHeroes + inputNumberHeroes.getText());
     }
 
     @FXML
     public void onSetNumber() {
         inputNumberHeroes.textProperty().addListener(new ChangeListener<String>() {
-            @Override
+            @Override  // Si la valeur choisi n'est pas un nombre on la supprime
             public void changed(ObservableValue<? extends String> observable, String oldValue,
                                 String newValue) {
                 if (!newValue.matches("\\d*")) {
@@ -120,7 +117,7 @@ public class ChoiceTeamController {
 
     @FXML
     public void onClickStart(ActionEvent actionEvent) throws IOException {
-        MainApplication.stage.setUserData(heroes);
+        MainApplication.stage.setUserData(heroes);  // On transmet les données à l'autre controller
         FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("game-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 900, 700);
         MainApplication.stage.setScene(scene);

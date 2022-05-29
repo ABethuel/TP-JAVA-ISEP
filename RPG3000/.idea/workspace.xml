@@ -11,6 +11,16 @@
   <component name="ChangeListManager">
     <list default="true" id="04237751-8fb2-4f8d-8ceb-65d1bc530f92" name="Changes" comment="Consumable interface + first tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Consumable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Consumable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Hunter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/Mage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/entities/SpellCaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/entities/SpellCaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/systems/ChoiceTeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/ChoiceTeamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/isep/systems/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/isep/systems/GameController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,17 +86,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.MainApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.isep.systems.MainApplication" />
       <module name="RPG3000" />
